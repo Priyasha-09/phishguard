@@ -8,6 +8,21 @@ PhishGuard is a full-stack cybersecurity application that helps users assess sus
 
 > **Disclaimer:** PhishGuard provides risk estimates, not guarantees. A low-risk result does not prove that a URL or message is safe.
 
+## Screenshots
+
+### Main Dashboard
+
+![PhishGuard Dashboard](screenshots/dashboard.png)
+
+### Phishing Message Analysis
+
+![Phishing Analysis Result](screenshots/phishing-analysis.png)
+
+### Legitimate Message Analysis
+
+![Legitimate Message Result](screenshots/legitimate-message.png)
+
+
 ## Features
 
 * **URL Analysis:** Inspect URL structure and identify potentially suspicious characteristics without intentionally visiting the submitted destination.
