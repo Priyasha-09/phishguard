@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "0": "legitimate",
+    "1": "phishing_or_spam"
+  },
+  "dataset_size": 25000,
+  "training_examples": 20000,
+  "test_examples": 5000,
+  "feature_type": "TF-IDF word unigrams and bigrams",
+  "algorithm": "Logistic Regression",
+  "metrics": {
+    "accuracy": 0.9674,
+    "precision": 0.964332318399304,
+    "recall": 0.9647519582245431,
+    "f1_score": 0.964542092669132,
+    "false_positive_rate": 0.030347890451517395,
+    "true_negatives": 2620,
+    "false_positives": 82,
+    "false_negatives": 81,
+    "true_positives": 2217
+  },
+  "warning": "Dataset labels include spam as well as phishing. Evaluation is not proof of real-world phishing performance."
+}

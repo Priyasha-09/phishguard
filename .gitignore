@@ -17,8 +17,7 @@ env/
 !.env.example
 
 # Machine learning artifacts
-backend/models/*.joblib
-backend/models/*.pkl
+# Keep trained model files in Git so deployment can load them.
 
 # Datasets and generated data
 backend/data/*
